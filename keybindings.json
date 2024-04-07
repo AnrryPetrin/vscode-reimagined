@@ -1,0 +1,14 @@
+[
+  {
+    "key": "shift+f10",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": {
+      "text": "node ${file}\u000D"
+    },
+    "when": "editorLangId == 'javascript'"
+  },
+  {
+    "key": "ctrl+alt+b",
+    "command": "workbench.action.toggleActivityBarVisibility"
+  }
+]
